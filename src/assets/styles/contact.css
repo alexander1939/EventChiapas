@@ -72,3 +72,41 @@
   font-size: 1.3rem;
   color: inherit;
 }
+
+
+.chat-simulado {
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.6s ease;
+}
+
+.chat-message {
+  max-width: 75%;
+  padding: 0.8rem 1rem;
+  border-radius: 16px;
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  animation: fadeIn 0.4s ease;
+}
+
+.chat-user {
+  background-color: #3498db;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.chat-bot {
+  background-color: #e0e0e0;
+  color: #2c3e50;
+  align-self: flex-start;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+}
