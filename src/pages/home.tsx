@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../assets/styles/style.css';
 
-const images = [
-  'https://blog.novelty-spain.com/hubfs/53617176275_f4249d55ff_c.jpg',
-  'https://i0.wp.com/almomento.mx/wp-content/uploads/2021/12/eventos-masivos.jpg?fit=621%2C411&ssl=1',
-  'https://neopix.com.br/wp-content/uploads//2022/08/EVENTOS-CORPORATIVOS-FOTOS-E-V%C3%8DDEOS-5-1600x1068.jpg',
-];
+import img1 from '../assets/images/53617176275_f4249d55ff_c.jpg';
+import img2 from '../assets/images/eventos-masivos.jpg';
+import img3 from '../assets/images/EVENTOS-CORPORATIVOS-FOTOS-E-VÍDEOS-5-1600x1068.jpg';
+
+const images = [img1, img2, img3];
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -33,7 +33,8 @@ const Home: React.FC = () => {
 
         <button
           className="cta-button"
-          onClick={() => navigate('/eventos')}
+          onClick={() => navigate('/events')}
+          aria-label="Explorar eventos"
         >
           Explorar eventos
         </button>
