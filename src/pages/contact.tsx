@@ -45,7 +45,6 @@ const Contact: React.FC = () => {
 
   return (
     <div className="contact-wrapper">
-      {/* Información de contacto (igual que antes) */}
       <h2 className="contact-title">Contáctanos</h2>
       <div className="contact-section">
         <label className="contact-label">Teléfono:</label>
@@ -106,7 +105,7 @@ const Contact: React.FC = () => {
 
       {/* Chat interactivo */}
       <div className="chat-simulado">
-        <h3 className="contact-label">Chat Simulado</h3>
+        <h3 className="contact-label">Chat en vivo (simulado)</h3>
         <div className="chat-container">
           {messages.map(msg => (
             <div

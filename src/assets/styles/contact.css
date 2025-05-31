@@ -109,4 +109,8 @@
 .chat-container {
   display: flex;
   flex-direction: column;
+  max-height: 300px; /* altura fija para el chat */
+  overflow-y: auto;  /* scroll vertical si pasa del max-height */
+  padding-right: 8px; /* para que no tape el scrollbar el contenido */
+  gap: 0.5rem;
 }
