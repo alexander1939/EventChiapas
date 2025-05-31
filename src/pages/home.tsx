@@ -28,7 +28,9 @@ const Home: React.FC = () => {
           Vive la emoción de <span>Eventos Chiapas</span>
         </h1>
         <p className="hero-subtitle">
-          Experiencias inolvidables, cultura, música y más...
+          Eventos Chiapas, disfrutamos de diversos eventos y actividades que nos
+          permiten conocer a nuestros amigos y familiares, conocer nuestro país y
+          conocer nuestra cultura.
         </p>
 
         <button
