@@ -2,6 +2,8 @@ import React from 'react';
 import '../assets/styles/style.css';
 import { useNavigate } from 'react-router-dom';
 
+import logo from '../assets/images/canva-logo-fiestas-y-piñatas-divertido-morado-y-rosa-C4CRvUL02EU.jpg';
+
 const Header: React.FC = () => {
   const navigate = useNavigate();
 
@@ -9,7 +11,7 @@ const Header: React.FC = () => {
     <header className="app-header">
       <div className="logo-container">
         <img
-          src="https://marketplace.canva.com/EAGFFa377Og/2/0/1600w/canva-logo-fiestas-y-pi%C3%B1atas-divertido-morado-y-rosa-C4CRvUL02EU.jpg"
+          src={logo}
           alt="Logo"
           className="logo"
         />
