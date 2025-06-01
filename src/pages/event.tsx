@@ -34,33 +34,13 @@ const initialEvents: EventData[] = [
 ];
 
 const Event: React.FC = () => {
-  const [events, setEvents] = useState<EventData[]>(initialEvents);
+  const [events] = useState<EventData[]>(initialEvents);
 
-  const handleCreate = () => {
-    // Aquí podrías abrir un formulario modal o redirigir
-    alert("Creado exitosamente");
-  };
-
-  const handleEdit = (id: number) => {
-    alert(`Editado Correctamente`);
-  };
-
-  const handleDelete = (id: number) => {
-    const confirmDelete = window.confirm("¿Seguro que deseas eliminar este evento?");
-    if (confirmDelete) {
-      alert(`Eliminado Correctamente`);
-    }
-  };
-  
   return (
     <div className="event-wrapper">
       <h2 className="event-title">Próximos Eventos</h2>
 
-      <div style={{ textAlign: 'right', marginBottom: '1.5rem' }}>
-        <button className="event-button create-button" onClick={handleCreate}>
-          Crear Evento
-        </button>
-      </div>
+      {/* Botón Crear Evento eliminado */}
 
       <div className="event-list">
         {events.map(event => (
@@ -71,14 +51,7 @@ const Event: React.FC = () => {
             </p>
             <p className="event-description">{event.description}</p>
 
-            <div className="event-actions">
-              <button className="event-button edit-button" onClick={() => handleEdit(event.id)}>
-                Editar
-              </button>
-              <button className="event-button delete-button" onClick={() => handleDelete(event.id)}>
-                Eliminar
-              </button>
-            </div>
+            {/* Botones Editar y Eliminar eliminados */}
           </div>
         ))}
       </div>
