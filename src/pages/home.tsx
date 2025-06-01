@@ -30,7 +30,7 @@ const Home: React.FC = () => {
         <p className="hero-subtitle">
           Eventos Chiapas, disfrutamos de diversos eventos y actividades que nos
           permiten conocer a nuestros amigos y familiares, conocer nuestro país y
-          conocer nuestra cultura.
+          conocer nuestra cultura... :D
         </p>
 
         <button
