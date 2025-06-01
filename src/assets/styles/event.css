@@ -71,3 +71,46 @@
     line-height: 1.4;
   }
   
+  .event-button {
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 0.5rem;
+  }
+  
+  .create-button {
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  .create-button:hover {
+    background-color: #16a085;
+  }
+  
+  .edit-button {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .event-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
