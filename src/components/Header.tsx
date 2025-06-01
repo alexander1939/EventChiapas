@@ -1,12 +1,10 @@
 import React from 'react';
 import '../assets/styles/style.css';
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import logo from '../assets/images/canva-logo-fiestas-y-piñatas-divertido-morado-y-rosa-C4CRvUL02EU.jpg';
 
 const Header: React.FC = () => {
-  const navigate = useNavigate();
-
   return (
     <header className="app-header">
       <div className="logo-container">
@@ -15,12 +13,12 @@ const Header: React.FC = () => {
           alt="Logo"
           className="logo"
         />
-        <a href='#home' onClick={() => navigate('/')} className="app-title">Eventos Chiapas</a>
+        <Link to="/" className="app-title">Eventos Chiapas</Link>
       </div>
 
       <nav className="nav-menu">
-        <a href="#eventos" onClick={() => navigate('/events')} className="nav-link">Eventos</a>
-        <a href="#contacto" onClick={() => navigate('/contact')} className="nav-link">Contacto</a>
+        <Link to="/events" className="nav-link">Eventos</Link>
+        <Link to="/contact" className="nav-link">Contacto</Link>
       </nav>
     </header>
   );
