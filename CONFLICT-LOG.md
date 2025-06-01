@@ -23,12 +23,15 @@
 </p>
 >>>>>>> rama-b
 
-
+![alt text](image.png)
+![alt text](image-1.png)
 solution:
+Es aceptar loc cambios entranstes o ignorar y dejar el cambio de la rama mas reciente 
+que se hizo del merge
 <p className="hero-subtitle">
   Eventos Chiapas, disfrutamos de diversos eventos y actividades que nos
   permiten conocer a nuestros amigos y familiares, conocer nuestro país y
-  conocer nuestra cultura.
+  conocer nuestra cultura..:D
 </p>
 
 Justificación:
