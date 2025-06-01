@@ -23,9 +23,11 @@
 </p>
 >>>>>>> rama-b
 
-![alt text](image.png)
-![alt text](image-1.png)
-solution:
+!![Conflicto gráfico](assets/images/conflicto.png)
+![solución](assets/images/solucion.png)
+```
+
+### Solución:
 Es aceptar loc cambios entranstes o ignorar y dejar el cambio de la rama mas reciente 
 que se hizo del merge
 <p className="hero-subtitle">
@@ -33,11 +35,6 @@ que se hizo del merge
   permiten conocer a nuestros amigos y familiares, conocer nuestro país y
   conocer nuestra cultura..:D
 </p>
-
-Justificación:
-El nuevo texto es más descriptivo y enfatiza los valores culturales
-Se mantuvo la estructura HTML y clases CSS originales
-Mejor flujo de lectura para usuarios
 
 Comandos usados:
 git add.
