@@ -1,41 +1,53 @@
 import React from 'react';
 
-interface Evento {
+import '../assets/styles/event.css';
+
+interface EventData {
   id: number;
-  nombre: string;
-  fecha: string;
-  lugar: string;
+  title: string;
+  date: string;
+  location: string;
+  description: string;
 }
 
-const events: Evento[] = [
-  { id: 1, nombre: 'Conferencia de Tecnología', fecha: '2025-06-10', lugar: 'Ciudad de México' },
-  { id: 2, nombre: 'Expo Innovación', fecha: '2025-07-05', lugar: 'Guadalajara' },
-  { id: 3, nombre: 'Taller de Programación', fecha: '2025-08-20', lugar: 'Monterrey' },
+const events: EventData[] = [
+  {
+    id: 1,
+    title: "Concierto de Jazz",
+    date: "2025-06-15",
+    location: "Auditorio Central",
+    description: "Disfruta de una noche mágica con los mejores músicos de jazz de la región.",
+  },
+  {
+    id: 2,
+    title: "Feria de Tecnología",
+    date: "2025-07-10",
+    location: "Centro de Convenciones",
+    description: "Explora las últimas innovaciones y startups tecnológicas.",
+  },
+  {
+    id: 3,
+    title: "Festival Gastronómico",
+    date: "2025-08-05",
+    location: "Parque Central",
+    description: "Sabores y aromas de la cocina local e internacional en un solo lugar.",
+  },
 ];
 
 const Event: React.FC = () => {
   return (
-    <div className="wrapper">
-      <h2 className="contact-title">Próximos Eventos</h2>
-      <div className="overflow-x-auto">
-        <table className="min-w-full border border-gray-200">
-          <thead className="bg-gray-100">
-            <tr>
-              <th className="text-left px-4 py-2 border-b">Nombre</th>
-              <th className="text-left px-4 py-2 border-b">Fecha</th>
-              <th className="text-left px-4 py-2 border-b">Lugar</th>
-            </tr>
-          </thead>
-          <tbody>
-            {events.map((evento) => (
-              <tr key={evento.id} className="hover:bg-gray-50">
-                <td className="px-4 py-2 border-b">{evento.nombre}</td>
-                <td className="px-4 py-2 border-b">{evento.fecha}</td>
-                <td className="px-4 py-2 border-b">{evento.lugar}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+    <div className="event-wrapper">
+      <h2 className="event-title">Próximos Eventos</h2>
+      <div className="event-list">
+        {events.map(event => (
+          <div key={event.id} className="event-card">
+            <h3 className="event-name">{event.title}</h3>
+            <p className="event-date-location">
+              📅 {new Date(event.date).toLocaleDateString()} | 📍 {event.location}
+            </p>
+            <p className="event-description">{event.description}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

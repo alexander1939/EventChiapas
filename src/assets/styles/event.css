@@ -1,0 +1,73 @@
+.event-wrapper {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 700px;
+    margin: 3rem auto;
+    color: #2c3e50;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.6s ease-in-out;
+    transition: transform 0.3s ease;
+  }
+  
+  .event-wrapper:hover {
+    transform: translateY(-3px);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .event-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #34495e;
+  }
+  
+  .event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .event-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  
+  .event-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    color: #2c3e50;
+  }
+  
+  .event-date-location {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #7f8c8d;
+    margin-bottom: 0.6rem;
+  }
+  
+  .event-description {
+    font-size: 1rem;
+    color: #34495e;
+    line-height: 1.4;
+  }
+  
