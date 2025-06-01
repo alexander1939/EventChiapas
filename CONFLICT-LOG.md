@@ -23,8 +23,8 @@
 </p>
 >>>>>>> rama-b
 
-!![Conflicto gráfico](assets/images/conflicto.png)
-![solución](assets/images/solucion.png)
+!![Conflicto gráfico](assets/images/conflicto.jpeg)
+![solución](assets/images/solucion.jpeg)
 ```
 
 ### Solución:
