@@ -17,10 +17,10 @@
 
 ## 👥 **Participantes**
 
-- 👤 *Gael Espinosa Fernandez* – *Desarrollador Frontend*
-- 👤 *Jesús Guzmán Jiménez* – *Desarrollador Backend*
-- 👤 *Gustavo Alexander Medina Cifuentes* – *Desarrollador Backend*
-- 👤 *Roberto Carlos Nuñez Cruz* – *Desarrollador Frontend*
+- 👤 *Gael Espinosa Fernandez* – *Desarrollador Frontend* - *Participación: 100*
+- 👤 *Jesús Guzmán Jiménez* – *Desarrollador Backend* - *Participación: 100*
+- 👤 *Gustavo Alexander Medina Cifuentes* – *Desarrollador Backend* - *Participación: 100*
+- 👤 *Roberto Carlos Nuñez Cruz* – *Desarrollador Frontend* - *Participación: 100*
 
                      # 9-A 
                  # Turno matutino 
