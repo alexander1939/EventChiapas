@@ -28,22 +28,30 @@
        # Ocosingo, Chiapas. 2 de Junio del 2025 
 ---
 
+
+
 ## 🧑‍💻 **Instrucciones de uso**
 
+### Instalación del proyecto
+Clonar el repositorio
 ```bash
-# Clonar el repositorio
 git clone https://github.com/alexander1939/EventChiapas.git
-
-# Entrar en el proyecto
+```
+Entrar en el proyecto
+```bash
 cd EventChiapas
-
-# Instalar dependencias
+```
+Instalar dependencias
+```bash
 npm install
+```
+Ejecutar en modo desarrollo
 
-# Ejecutar en modo desarrollo
+```bash
 npm run dev
+```
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 📦 EventChiapas
 ├── 📁 assets        → CSS, imágenes, recursos estáticos
@@ -53,7 +61,7 @@ npm run dev
 ├── 📄 App.tsx       → Componente raíz
 └── 📄 main.tsx      → Punto de entrada principal
 
-🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 * ⚛️ React – Biblioteca de interfaces de usuario
 * 🟦 TypeScript – Tipado estático seguro para JS
@@ -61,14 +69,13 @@ npm run dev
 * 🧭 React Router – Navegación entre páginas
 * 🎨 CSS Modules – Estilos reutilizables
 
-🔗 Recursos útiles
+## 🔗 Recursos útiles
 LINKS IMPORTANTES (click para abrir):
 [Git Pull Requests](https://www.youtube.com/watch?v=juBQosR7CIU)
 [Git Shortcuts](https://www.youtube.com/shorts/_KM0fkNcRUA)
 
-📄 Licencia
+## 📄 Licencia
 * Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE] para más información.
-
 
 ## Otros documentos
 
