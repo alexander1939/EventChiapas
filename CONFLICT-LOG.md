@@ -17,8 +17,17 @@
 
 ### Cambios conflictivos:
 
-<p align="center"> <img src="./src/assets/images/Conflicto.jpeg" alt="conflicto" style="max-width: 80%;" /> 
-</p> <p align="center"> <img src="./src/assets/images/solucion.jpeg" alt="solucion" style="max-width: 80%;" /> </p>
+> [!WARNING]
+> El conflicto surgió al intentar fusionar contenido del componente `<p className="hero-subtitle">` donde ambas ramas modificaron el mismo bloque, generando una superposición de textos en `home.tsx`.
+
+<p align="center">
+  <img src="./src/assets/images/Conflicto.jpeg" alt="conflicto" style="max-width: 80%;" />
+</p>
+
+<p align="center">
+  <img src="./src/assets/images/solucion.jpeg" alt="solucion" style="max-width: 80%;" />
+</p>
+
 
 
 
