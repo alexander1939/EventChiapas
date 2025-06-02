@@ -68,3 +68,9 @@ LINKS IMPORTANTES (click para abrir):
 
 📄 Licencia
 * Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE] para más información.
+
+
+## Otros documentos
+
+- 📄 [CONTRIBUTING](./CONTRIBUTING.md)
+- 📘 [CONFLICT-LOG](./CONFLICT-LOG.md)
