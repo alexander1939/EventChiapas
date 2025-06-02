@@ -1,30 +1,55 @@
-Nombres de Ramas
+# 🤝 Guía para contribuir
 
-Formato recomendado:
-rama/descripción-breve
-(todo en minúsculas, utilizando guiones para separar palabras)
+Gracias por querer colaborar en este proyecto. Para mantener un flujo de trabajo ordenado y comprensible, sigue estas reglas y recomendaciones.
 
-Ejemplos:
+---
 
-    rama/home — Para la realizaciopn de la pagina de incio
+## 🌿 Nombres de ramas
 
-    rama/header — Para la realizacion del componete de header
+Usa el siguiente formato recomendado para nombrar las ramas:
 
-    docs/footer — Para la realizacion del componete el pie de pagina
 
-Reglas en commit
+- Todo en minúsculas.
+- Usa guiones para separar palabras.
+- Evita espacios o caracteres especiales.
 
-    Escribe DIRECTAMENTE lo que hiciste, en pocas palabras.
+### Tipos comunes:
+- `feat/` → para nuevas funcionalidades  
+- `fix/` → para correcciones de errores  
+- `docs/` → para cambios en documentación  
+- `style/` → para ajustes de formato o estilo  
+- `refactor/` → para reorganización sin cambiar funcionalidad  
+- `chore/` → para tareas menores o mantenimiento  
 
-    Ejemplos:
+### Ejemplos prácticos:
+- `feat/home` — para el desarrollo de la página de inicio  
+- `fix/login-movil` — para arreglar el error en el login móvil  
+- `docs/footer` — para actualizar o crear documentación del footer  
 
-        Agregué el botón de búsqueda
+---
 
-        Arreglé el error del login en móvil
+## 📝 Reglas para mensajes de commit
 
-        Actualicé los colores del header
+- Escribe de forma clara y directa qué hiciste, en pocas palabras.
+- Usa **infinitivo** o un estilo breve y consistente.
+- Limita el mensaje a **una línea clara y concisa**.
+- Que cualquiera pueda entender el cambio solo leyendo el mensaje.
 
-Reglas básicas (si quieres algo de orden):
+### Ejemplos de buenos mensajes:
+- `feat: agregar botón de búsqueda`
+- `fix: corregir error en login móvil`
+- `style: actualizar colores del header`
 
-   * Brevedad: 1 línea clara (ej: Corregí el cálculo de precios).
-   * Claridad: Que cualquier compañero entienda el cambio sin explicaciones.
+---
+
+## 🧹 Reglas básicas para mantener orden
+
+- Sé breve y claro en tus commits (ejemplo: `corregí el cálculo de precios`).
+- No hagas commits gigantescos, divide el trabajo en cambios pequeños y específicos.
+- Antes de subir tus cambios, verifica que todo funcione correctamente.
+- No hagas push directo a la rama `main` sin revisión previa.
+- Si agregas una función nueva, considera escribir pruebas.
+
+---
+
+Gracias por contribuir y ayudar a que este proyecto crezca y se mantenga ordenado. ¡Tus aportes son muy valiosos! 🙌
