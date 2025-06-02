@@ -53,6 +53,7 @@ npm run dev
 
 ## 📁 Estructura del Proyecto
 
+```
 📦 EventChiapas
 ├── 📁 assets        → CSS, imágenes, recursos estáticos
 ├── 📁 components    → Componentes reutilizables (Navbar, Footer, etc.)
@@ -60,6 +61,7 @@ npm run dev
 ├── 📄 router.tsx    → Rutas de la app
 ├── 📄 App.tsx       → Componente raíz
 └── 📄 main.tsx      → Punto de entrada principal
+```
 
 ## 🛠️ Tecnologías utilizadas
 
