@@ -83,3 +83,9 @@ LINKS IMPORTANTES (click para abrir):
 
 - 📄 [CONTRIBUTING](./CONTRIBUTING.md)
 - 📘 [CONFLICT-LOG](./CONFLICT-LOG.md)
+
+
+## Link de la vista del sitio web
+
+[Sitio_EvenChiapas](https://alexander1939.github.io/EventChiapas/)
+[Repo_EvenChiapas](https://github.com/alexander1939/EventChiapas/)
