@@ -24,6 +24,17 @@
   <img src="./src/assets/images/Conflicto.jpeg" alt="conflicto" style="max-width: 80%;" />
 </p>
 
+### ✅ Solución adoptada:
+
+> [!NOTE]
+> En la imagen se muestran tres partes clave del conflicto:
+> - **Cambios aceptados**: lo que finalmente quedó en el archivo.
+> - **Cambios entrantes**: lo que venía desde la rama `rama-header`.
+> - **Resultado del merge**: la combinación final después de resolver el conflicto.
+>
+> Se decidió conservar el contenido más reciente y contextual de la rama `rama-header`, ya que aportaba información más completa y coherente con la sección visual.
+
+
 <p align="center">
   <img src="./src/assets/images/solucion.jpeg" alt="solucion" style="max-width: 80%;" />
 </p>
@@ -35,10 +46,7 @@
 > Siempre guarda capturas del conflicto y la solución para documentación futura o auditoría.
 
 
-### ✅ Solución adoptada:
 
-> [!NOTE]
-> Se decidió aceptar el contenido más reciente de la rama rama-header.
 
 <p className="hero-subtitle">
   Eventos Chiapas, disfrutamos de diversos eventos y actividades que nos
